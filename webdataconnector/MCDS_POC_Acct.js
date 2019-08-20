@@ -38,8 +38,8 @@
       }];
 
         var tableSchema = {
-            id: "IPID_Data",
-            alias: "Subset of IPID information",
+            id: "Accts Data",
+            alias: "Accts All Custody- Non 045",
             columns: cols
         };
 
@@ -86,7 +86,7 @@
 
 $(document).ready(function () {
     $("#submitButton").click(function () {
-        tableau.connectionName = "MCDS POC Feed";
+        tableau.connectionName = "MCDS - Accts Non 045";
         tableau.submit();
     });
 });
