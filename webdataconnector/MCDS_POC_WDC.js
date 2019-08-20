@@ -67,6 +67,7 @@
                   "partyId": feat[i].partyId,
                   "isActiveFlag": feat[i].isActiveFlag,
                   "domicileCountryCode": feat[i].domicileCountryCode,
+                  "lei": feat[i].lei,
                   "partyName": feat[i].partyName,
                   "intrBnymLeFlag": feat[i].intrBnymLeFlag,
                   "countryOfRiskCode": feat[i].countryOfRiskCode,
