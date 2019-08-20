@@ -73,7 +73,7 @@
                   "intrBnymLeFlag": feat[i].intrBnymLeFlag,
                   "countryOfRiskCode": feat[i].countryOfRiskCode,
                   "entityTypeName": feat[i].entityTypeName,
-                  "subEntityTypeName": feat[i].subEntityTypeName,
+                  "subEntityTypeName": feat[i].subEntityTypeName
               });
           }
 
