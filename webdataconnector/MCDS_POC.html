@@ -13,13 +13,23 @@
 </head>
 
 <body>
-    <div class="container container-table">
-        <div class="row vertical-center-row">
-            <div class="text-center col-md-4 col-md-offset-4">
+  <div class="container container-table">
+      <div class="row vertical-center-row">
+          <div class="text-center col-md-4 col-md-offset-4">
+              <h2>Enter the Entity Type (Number from 1 - 14)</h2>
+              <form>
+                  <div class="form-inline">
+                      <label for="entity-type" class="text-center">Entity Type</label>
+          </div>
+          <div class="form-inline">
+              <input type="number" class="form-control" id="entity_type" value="3">
+          </div>
+      </form>
                 <button type="button" id="submitButton" class="btn btn-success" style="margin: 10px;">Get MCDS Data!</button>
-            </div>
-        </div>
-    </div>
+              <div id="errorMsg"></div>
+          </div>
+      </div>
+  </div>
 </body>
 
 </html>
