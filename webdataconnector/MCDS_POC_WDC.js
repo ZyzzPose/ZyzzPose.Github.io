@@ -19,20 +19,18 @@
           }, {
               id: "partyName",
               dataType: tableau.dataTypeEnum.string
-          }
+
         }, {
             id: "intrBnymLeFlag",
             dataType: tableau.dataTypeEnum.string
-        }
+
       }, {
           id: "countryOfRiskCode",
           dataType: tableau.dataTypeEnum.string
-      }
 
       }, {
           id: "entityTypeName",
           dataType: tableau.dataTypeEnum.string
-      }
 
       }, {
           id: "subEntityTypeName",
